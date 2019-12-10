@@ -22,8 +22,9 @@ function App() {
       <Logo />
       <div className="App">
         <Display />
-        <Specials/>
+        <Specials />
         <Numbers />
+        <Operators />
       </div>
     </div>
   );

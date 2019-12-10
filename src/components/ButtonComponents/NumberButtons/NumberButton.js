@@ -1,9 +1,12 @@
 import React from "react";
+import { defaultCipherList } from "constants";
 
-const NumberButton = () => {
+const NumberButton = props => {
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <button className='number_button'>
+      {props.numbers}
+    </button>
   );
 };
+
+export default NumberButton;

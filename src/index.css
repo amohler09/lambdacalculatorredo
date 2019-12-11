@@ -6,7 +6,51 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App{
+  display: flex;
+  width: 100%;
+  
+}
+
+.left{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 75%;
+
+}
+
+.right {
+  flex-direction: column;
+  width: 25%;
+}
+
+.number_button {
+  background-color: midnightblue;
+  color: white;
+  font-size: 2rem;
+  padding: 5%;
+  border-radius: 150px;
+}
+
+.special_button {
+  background-color: steelblue;
+  color: white;
+  font-size: 2rem;
+  padding: 5%;
+  border-radius: 150px;
+}
+
+.operator_button {
+  background-color: deepskyblue;
+  color: white;
+  font-size: 2rem;
+  padding: 5%;
+  border-radius: 150px;
 }
